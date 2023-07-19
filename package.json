@@ -1,0 +1,29 @@
+{
+  "name": "back-end-mentoriaforadacurva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoaugusto543/back-end-mentoriaForaDaCurva.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoaugusto543/back-end-mentoriaForaDaCurva/issues"
+  },
+  "homepage": "https://github.com/joaoaugusto543/back-end-mentoriaForaDaCurva#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
